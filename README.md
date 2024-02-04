@@ -3,12 +3,16 @@ Custom plex invitation script with accompanied email using `plexapi`, `flask` an
 
 All configuration is within `config.py`.
 
-## Execute script
+## Build Docker image
 ```
-python run.py
+docker image build -t plex_invitation .
+```
+## Start container
+```
+docker run -p 5000:5000 -d --name plex_invitation plex_invitation
 ```
 
 ## Web server
-Webpage accessible on `localhost:3000`.
+Webpage accessible on `localhost:5000`.
 
 
