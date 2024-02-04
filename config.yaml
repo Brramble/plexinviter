@@ -1,0 +1,15 @@
+CONFIG:
+  PLEX_TOKEN: your_actual_plex_token
+  PLEX_SERVER_URL: your_actual_plex_server_url
+  PLEX_SERVER_NAME: your_actual_plex_server_name
+  SMTP_USERNAME: your_actual_smtp_username
+  SMTP_PASSWORD: your_actual_smtp_password
+  SMTP_SERVER: your_actual_smtp_server
+  SMTP_PORT: your_actual_smtp_port
+  EMAIL_SENDER: your_actual_email_sender
+  EMAIL_SUBJECT: Your invite is here
+  EMAIL_MESSAGE: |
+    Line 1 of email message
+    Line 2 of email message
+    Line 3 of email message
+  WEBPAGE_TITLE: Your Webpage Title
