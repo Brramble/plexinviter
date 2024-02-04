@@ -11,7 +11,6 @@ def send_email(user_email):
 
             msg = MIMEText(EMAIL_MESSAGE)
             msg['Subject'] = EMAIL_SUBJECT
-            #msg["From"] = EMAIL_SENDER
             msg["From"] = (f"{EMAIL_DISPLAYNAME} <{EMAIL_SENDER}>")
             msg['To'] = user_email
 
