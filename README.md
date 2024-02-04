@@ -1,12 +1,14 @@
 # Plex Inviter
-Custom plex invitation script with accompanied email using `plexapi` and `smtplib`.
+Custom plex invitation script with accompanied email using `plexapi`, `flask` and `smtplib`.
 
-All configuration is within `config.py`. This script could be used to automate invitations.
+All configuration is within `config.py`.
 
 ## Execute script
 ```
-python plex_invitation.py email@address.com
+python run.py
 ```
 
+## Web server
+Webpage accessible on `localhost:3000`.
 
 
