@@ -1,0 +1,4 @@
+Flask==1.1.4
+plexapi==4.8.0
+werkzeug==1.0.1
+markupsafe==1.1.1
