@@ -1,2 +1,3 @@
-# plexinviter
-Custom plex invitation script with accompanied email.
+# Plex Inviter
+Custom plex invitation script with accompanied email using `plexapi` and `smtplib`.
+
