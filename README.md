@@ -1,7 +1,7 @@
 # Plex Inviter
 Custom plex invitation script with accompanied email using `plexapi`, `flask` and `smtplib`.
 
-All configuration is within `config.py`.
+All configuration is within `config.yaml`.
 
 ## Build Docker image
 ```
